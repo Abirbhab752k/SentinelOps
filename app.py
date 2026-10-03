@@ -16,7 +16,7 @@ if st.button("🚀 Execute Autonomous Triage", type="primary"):
     with st.spinner("Agent running 13-step operational workflow..."):
         try:
             response = requests.post(
-                "http://127.0.0.1:8000/run",
+                "https://fantastic-space-couscous-p79v44x9jpp279g7-8000.app.github.dev/run",
                 params={"prompt": scenario_prompt}
             )
             
